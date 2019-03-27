@@ -23,37 +23,37 @@ options		PPS_SYNC
 
 # Wireless
 nooptions	IEEE80211_DEBUG	# enable debug msgs
-device		wlan_rssadapt
-device		wlan_xauth
-device		wlan_acl
-device		iwifw
-device		ipwfw		# Firmware for Intel PRO/Wireless 2100 IEEE 802.11 driver
-device		wpifw		# Firmware for Intel 3945ABG Wireless LAN IEEE 802.11 driver
-device		iwnfw		# Firmware for Intel Wireless WiFi Link 4965AGN IEEE 802.11n driver
-device		uath		# Atheros USB IEEE 802.11a/b/g wireless network device
-device		ralfw		# Firmware for Ralink Technology RT2500 wireless NICs.
-device		ural		# Ralink Technology RT2500USB IEEE 802.11 driver
-device		urtw		# Realtek RTL8187B/L USB IEEE 802.11b/g wireless network device
-device		rum		# Ralink Technology USB IEEE 802.11a/b/g wireless network device
-device		mwlfw		# Firmware for Marvell 88W8363 IEEE 802.11n wireless network driver
-device		zyd		# ZyDAS ZD1211/ZD1211B USB IEEE 802.11b/g wireless network device
-device		upgt		# Conexant/Intersil PrismGT SoftMAC USB IEEE 802.11b/g wireless
-device		udav		# Davicom DM9601 USB Ethernet driver
-device		axe
-device		axge
-device		aue
-device		cue
-device		kue
-device		mos
-device		rsu
-device		rsufw
-device		rtwn
-device		rtwnfw
-device		run		# Ralink RT2700U/RT2800U/RT3000U USB 802.11agn
-device		runfw
-device		rue
-device		bwn		# Broadcom BCM43xx IEEE 802.11b/g wireless network driver
-device		bwi		# Broadcom BCM43xx IEEE 802.11b/g wireless network driver
+#device		wlan_rssadapt
+#device		wlan_xauth
+#device		wlan_acl
+#device		iwifw
+#device		ipwfw		# Firmware for Intel PRO/Wireless 2100 IEEE 802.11 driver
+#device		wpifw		# Firmware for Intel 3945ABG Wireless LAN IEEE 802.11 driver
+#device		iwnfw		# Firmware for Intel Wireless WiFi Link 4965AGN IEEE 802.11n driver
+#device		uath		# Atheros USB IEEE 802.11a/b/g wireless network device
+#device		ralfw		# Firmware for Ralink Technology RT2500 wireless NICs.
+#device		ural		# Ralink Technology RT2500USB IEEE 802.11 driver
+#device		urtw		# Realtek RTL8187B/L USB IEEE 802.11b/g wireless network device
+#device		rum		# Ralink Technology USB IEEE 802.11a/b/g wireless network device
+#device		mwlfw		# Firmware for Marvell 88W8363 IEEE 802.11n wireless network driver
+#device		zyd		# ZyDAS ZD1211/ZD1211B USB IEEE 802.11b/g wireless network device
+#device		upgt		# Conexant/Intersil PrismGT SoftMAC USB IEEE 802.11b/g wireless
+#device		udav		# Davicom DM9601 USB Ethernet driver
+#device		axe
+#device		axge
+#device		aue
+#device		cue
+#device		kue
+#device		mos
+#device		rsu
+#device		rsufw
+#device		rtwn
+#device		rtwnfw
+#device		run		# Ralink RT2700U/RT2800U/RT3000U USB 802.11agn
+#device		runfw
+#device		rue
+#device		bwn		# Broadcom BCM43xx IEEE 802.11b/g wireless network driver
+#device		bwi		# Broadcom BCM43xx IEEE 802.11b/g wireless network driver
 
 # Pseudo devices.
 #device		pty		# Pseudo-ttys (telnet etc)
@@ -62,24 +62,24 @@ device		bwi		# Broadcom BCM43xx IEEE 802.11b/g wireless network driver
 nooptions	USB_DEBUG	# enable debug msgs
 
 # 3G devices
-device		ufoma
-device		ucom
-device		uslcom
-device		uplcom
-device		umct
-device		uvisor
-device		uark
-device		uftdi
-device		uvscom
-device		umodem
-device		u3g
-device		cdce
+#device		ufoma
+#device		ucom
+#device		uslcom
+#device		uplcom
+#device		umct
+#device		uvisor
+#device		uark
+#device		uftdi
+#device		uvscom
+#device		umodem
+#device		u3g
+#device		cdce
 
 device		uhid		# "Human Interface Devices"
 
 # FireWire support
-device		firewire	# FireWire bus code
-device		sbp		# SCSI over FireWire (Requires scbus and da)
+#device		firewire	# FireWire bus code
+#device		sbp		# SCSI over FireWire (Requires scbus and da)
 
 # addons
 
@@ -169,11 +169,11 @@ options		DEVICE_POLLING
 options		MROUTING
 
 # Additional cards
-device		mxge		# mxge - Myricom Myri10GE 10 Gigabit Ethernet adapter driver
-device		cxgb		# cxgb -- Chelsio T3 10 Gigabit Ethernet adapter driver
-device		cxgbe		# cxgbe -- Chelsio T5 10 Gigabit Ethernet adapter driver
+#device		mxge		# mxge - Myricom Myri10GE 10 Gigabit Ethernet adapter driver
+#device		cxgb		# cxgb -- Chelsio T3 10 Gigabit Ethernet adapter driver
+#device		cxgbe		# cxgbe -- Chelsio T5 10 Gigabit Ethernet adapter driver
 #device		nve		# nVidia nForce MCP on-board Ethernet Networking
-device		oce
+#device		oce
 
 # Default serial speed
 options		CONSPEED=115200
